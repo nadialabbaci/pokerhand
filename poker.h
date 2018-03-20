@@ -33,10 +33,10 @@ typedef enum _poker_rank_
 typedef enum _poker_suit_
 {
    DIAMOND = 0,
-   CLUB,
-   HEART,
-   SPADE,
-} ePokerSuit;
+   CLUB = 1,
+   HEART = 2,
+   SPADE = 3,
+} ePokerSuit = ;
 
 /**
  * define the card's values.
@@ -44,18 +44,18 @@ typedef enum _poker_suit_
 typedef enum _poker_value_
 {
    TWO = 2,
-   THREE,
-   FOUR,
-   FIVE,
-   SIX,
-   SEVEN,
-   EIGHT,
-   NINE,
-   TEN,
-   JACK,
-   QUEEN,
-   KING,
-   ACE,
+   THREE = 3,
+   FOUR = 4,
+   FIVE = 5,
+   SIX = 6,
+   SEVEN = 7,
+   EIGHT = 8,
+   NINE = 9,
+   TEN = 10,
+   JACK = 11,
+   QUEEN = 12,
+   KING = 13,
+   ACE = 14,
 } ePokerValue;
 
 /**
